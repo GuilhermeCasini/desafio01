@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    font-family: helvetica;
+}
+header{
+    overflow: hidden;
+    background-color: #212121;;
+    width: 100%;
+   padding: 40px 0px;
+   transition: 0.4s;
+   position: fixed;
+   top: 0px;
+   z-index: 100;
+
+}
+
+
+header a{ 
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+#logo{
+    font-size: 35px;
+    transition: 0.4s;
+
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+a.home{
+    background-color: #F9A825;;
+    color: white;
+}
+#canto{
+    float: right;
+
+     }
+     input{
+        font-family: helvetica;
+         display: flex;
+         background-color:;
+         margin-top: -15%;
+         margin-left: 50%;
+         margin-right: 30% ;
+         margin-bottom: 30%;
+     }
+     main{
+         margin-top: 210px ;
+         margin-left: 300px;
+         margin-right: 300px;
+        
+     }
+
+
+     .pontilhado{
+         border-right: 1px dashed black;
+         margin-right: 400px;
+     }
+
+     p{
+         width: 50%;
+         height: auto;
+        
+         font-family: helvetica;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+         padding: 5px;
+         text-align: start;
+         margin-top: 50%;
+         margin-right: 100%;
+         margin-left: 40%;
+     }
+
+
+     .txt{
+         width: 90%;
+         height: 30px;
+         outline: none;
+         border-radius: 5px;
+         border: 1px solid black;
+
+     }
+     footer{overflow: hidden;
+        background-color: #212121;;
+        width: 100%;
+        padding: 40px 10px;
+        transition: 0.4s;
+        position: fixed;
+        top: 550px;
+        z-index: 100;
+
+     }
+
+     #tiacademy{
+         color: white;
+         background-color: #212121;
+         font-size: 20px;
+         font-weight: bold;
+         font-family: helvetica;
+         width: 200px;
+         height: 80px;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+        }
+
+        
